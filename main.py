@@ -26,7 +26,7 @@ book_author = []
 book_length = []
 current_page = 1
 
-while current_page <= int(last_page):
+while current_page <= 3:
     time.sleep(2)
     # explicit wait
     container = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, 'adbl-impression-container')))
